@@ -1,0 +1,66 @@
+:root{
+    --cursive-font: 'Shadows Into Light', cursive;
+    --primary-font: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: darkslategray;
+    color: white;
+}
+#root{
+    display: grid;
+    place-items: center;
+}
+
+h1, h2, h3, h4,button, input{
+    font-family: var(--primary-font);
+}
+
+span, p, label{
+    font-family: var(--cursive-font);
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+section{
+    padding: 28px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+form{ /* FORM PARA CAPTURAR NUEVA NOTA */
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form input{
+    padding: 4px;
+    margin: 0 4px;
+    border: solid black 2px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 20px;
+}
+
+form button{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border: none;
+    outline: none;
+    background-color: #3394da;
+    border-radius: 4px;
+}
+
+@media only screen and(max-width: 600px) {
+    
+}

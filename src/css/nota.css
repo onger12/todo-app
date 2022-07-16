@@ -1,0 +1,55 @@
+.nota{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+    background-color: darkcyan;
+}
+.nota input{
+    margin-right: 4px;
+}
+.nota button{
+    margin: 0 4px;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.nota label{
+    font-size: 20px;
+}
+.btn-editar{
+    background-color: darkgoldenrod;
+}
+
+.btn-eliminar{
+    background-color: darkred;
+}
+
+@media only screen and (max-width: 600px) {
+    .nota-botones{
+        display: flex;
+        flex-direction: column;
+    }
+    .nota button{
+        margin: 4px 0;
+        font-size: 12px;
+    }
+    .nota label{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+    }
+    .nota form{
+        margin: 0 auto;
+        width: 85%;
+    }
+    .nota input[type="text"]{
+        font-size: 12px;
+        width: 100%;
+    }
+}
